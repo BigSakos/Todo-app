@@ -12,6 +12,7 @@ export default class Main extends React.Component {
       tasks: tasks,
     };
   }
+  //creating task
   createTask = (task) => {
     if (task.trim() === '') {
       alert("Task can't be empty");
